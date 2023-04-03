@@ -1,44 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Secular+One&display=swap");
+
 * {
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  background-color: #2c3e50;
 }
 
 h1 {
   text-align: center;
   padding: 10px;
+  color: #ecf0f1;
+  font-family: "Bitter", serif;
 }
 
 .content {
-  /* margin-top: 250px; */
-  background-color: lightcoral;
+  background-color: #95a5a6;
   width: max(600px, 40%);
   display: flex;
-  /* justify-content: ; */
   align-items: center;
   padding: 10px;
   cursor: pointer;
+  /* border: 2px solide black; */
+  border: 3px solid #2980b9;
+
+  /* 
+   */
+
+  box-shadow: -9px 13px 14px -13px rgba(236, 240, 241, 0.73);
+  -webkit-box-shadow: -9px 13px 14px -13px rgba(236, 240, 241, 0.73);
+  -moz-box-shadow: -9px 13px 14px -13px rgba(236, 240, 241, 0.73);
 }
+
 .text {
   padding: 20px;
-  /* gap: 10px; */
 }
 #demo {
   margin-bottom: 10px;
+  /* color: #2ecc71; */
+  font-family: "Bitter", serif;
 }
 #demo2 {
   font-weight: 600;
+  font-family: "Secular One", sans-serif;
 }
 img {
   width: 200px;
   height: 300px;
   border-radius: 10px;
+}
+
+footer {
+  background-color: #7f8c8d;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+  font-family: "Secular One", sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
